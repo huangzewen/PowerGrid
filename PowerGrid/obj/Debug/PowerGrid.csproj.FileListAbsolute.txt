@@ -1,0 +1,9 @@
+c:\users\zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\bin\Debug\PowerGrid.exe.config
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\bin\Debug\PowerGrid.exe
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\bin\Debug\PowerGrid.pdb
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.csprojResolveAssemblyReference.cache
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.Properties.Resources.resources
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.csproj.GenerateResource.Cache
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.exe
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.pdb
+C:\Users\Zewenh\documents\visual studio 2015\Projects\PowerGrid\PowerGrid\obj\Debug\PowerGrid.Index.resources
