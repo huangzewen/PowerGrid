@@ -1,4 +1,5 @@
 ﻿using PowerGrid.DBHelper;
+using PowerGrid.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,9 +16,13 @@ namespace PowerGrid
 {
     public partial class Index : Form
     {
+        
         public Index()
         {
             InitializeComponent();
+            this.Width = 300;
+            this.Height = 350;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
         }
 
         private void Form1_Activated(object sender, EventArgs e)
@@ -60,7 +65,11 @@ namespace PowerGrid
                 {
                     if (Convert.ToString(row["password"]) == txtPwd.Text.Trim())
                     {
-                        DialogResult = DialogResult.OK;
+                        
+                        MainForm mainForm = new MainForm(this);
+                        mainForm.Show();
+                        this.Hide();
+                        //this.Close();
                     }
                     else
                     {

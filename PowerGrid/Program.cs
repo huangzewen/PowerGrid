@@ -18,13 +18,13 @@ namespace PowerGrid
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Index index = new Index();
-            index.ShowDialog();
+            Application.Run(index);
             //判断是否返回父窗体的
-            if (index.DialogResult == DialogResult.OK)
-            {
-                //在线程中打开主窗体
-                Application.Run(new MainForm());
-            }
+            //if (index.getJumpToMainForm() == true)
+            //{
+            //在线程中打开主窗体
+            //     Application.Run(new MainForm());
+            // }
 
         }
     } 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Index));
             this.Login = new System.Windows.Forms.Button();
             this.register = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,15 +41,18 @@
             // 
             // Login
             // 
-            this.Login.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Login.BackColor = System.Drawing.Color.Transparent;
             this.Login.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.Login.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
             this.Login.Font = new System.Drawing.Font("SimSun", 10F);
             this.Login.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Login.Image = ((System.Drawing.Image)(resources.GetObject("Login.Image")));
+            this.Login.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Login.Location = new System.Drawing.Point(56, 292);
             this.Login.Margin = new System.Windows.Forms.Padding(4);
             this.Login.Name = "Login";
+            this.Login.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.Login.Size = new System.Drawing.Size(112, 31);
             this.Login.TabIndex = 0;
             this.Login.Text = "登录";
@@ -57,13 +61,16 @@
             // 
             // register
             // 
-            this.register.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.register.BackColor = System.Drawing.Color.Transparent;
             this.register.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.register.Font = new System.Drawing.Font("SimSun", 10F);
             this.register.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.register.Image = ((System.Drawing.Image)(resources.GetObject("register.Image")));
+            this.register.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.register.Location = new System.Drawing.Point(208, 292);
             this.register.Margin = new System.Windows.Forms.Padding(4);
             this.register.Name = "register";
+            this.register.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.register.Size = new System.Drawing.Size(112, 31);
             this.register.TabIndex = 1;
             this.register.Text = "注册";
@@ -133,10 +140,11 @@
             this.labelPwd.Size = new System.Drawing.Size(0, 17);
             this.labelPwd.TabIndex = 7;
             // 
-            // Form1
+            // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Turquoise;
             this.ClientSize = new System.Drawing.Size(408, 402);
             this.Controls.Add(this.labelPwd);
             this.Controls.Add(this.labelUsn);
@@ -148,7 +156,7 @@
             this.Controls.Add(this.Login);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Index";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "电源路径管理项目";
             this.Activated += new System.EventHandler(this.Form1_Activated);

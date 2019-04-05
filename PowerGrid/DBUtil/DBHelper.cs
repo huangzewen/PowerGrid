@@ -488,6 +488,7 @@ namespace PowerGrid.DBHelper
                         }
                         catch
                         {
+                            MessageBox.Show(Cmd.CommandText);
                             Con.Close();
                             throw;
                         }
